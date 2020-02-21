@@ -11,3 +11,15 @@ Sector - One or more Park Districts that are combined in order share resources f
 Region - One or more Park Sectors that are combined and assigned a regional managers who provides high-level, strategic planning and
 support for Parks managers, including maximizing resources between Districts and Sectors.
 
+# Proposed Input Data Sources
+- NYC Parks Districts
+- NYC Parks District-Sector Reference Table
+- NYC Parks Sector-Region Reference Table
+- [NYC Planning Administrative Boundaryies](https://www1.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page)
+>- Borough Boundaries (with water)
+>- Community Boards
+
+# Proposed Output Data Sources
+- Topologically corrected Parks Districts
+- Topologically correct Parks Sectors generated from Districts
+- Topologically correct Parks Regions generated from Sectors
