@@ -15,7 +15,7 @@ support for Parks managers, including maximizing resources between Districts and
 - NYC Parks Districts
 - NYC Parks District-Sector Reference Table
 - NYC Parks Sector-Region Reference Table
-- [NYC Planning Administrative Boundaryies](https://www1.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page)
+- [NYC Planning Administrative Boundaries](https://www1.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page)
 >- Borough Boundaries (with water)
 >- Community Boards
 
