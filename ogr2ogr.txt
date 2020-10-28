@@ -1,0 +1,7 @@
+ogr2ogr -f PostgreSQL PG:"host=localhost user=postgres dbname=dsr_db password=Hladik87*" C:\Projects\dsr_db\data\Region_Sector_District.gpkg -nln tbl_park_districts_raw
+
+ogrinfo C:\Projects\dsr_db\data\Region_Sector_District.gpkg
+
+ogrinfo -al "MSSQL:server=DESKTOP-9OHQESH\SQLEXPRESS;database=ParksGIS;trusted_connection=yes"
+
+ogr2ogr -f MSSQLSpatial "MSSQL:server=DESKTOP-9OHQESH\SQLEXPRESS;database=ParksGIS;trusted_connection=yes" "C:\Projects\dsr_db\data\Region_Sector_District.gpkg" -nln "tbl_park_districts_raw" -progress
